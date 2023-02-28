@@ -1,0 +1,148 @@
+/* body section*/
+body{
+  font-family: "Montserrat-black", sans-serif;
+  text-align: center;
+}
+
+/*heading section*/
+
+h1,h2,h3{
+font:bold;
+font-size: 5rem;
+line-height: 1.5;
+}
+
+h2{
+  font-size: 2.0rem;
+ }
+ h3{
+  font-size: 1.5rem;
+ }
+ 
+
+.container-fluid,#features,#cta,#testimonials,.carousel-item,#pricing,#footer{
+  padding:7% 15%;
+
+}
+#title ,.container-fluid{
+  padding:3% 7% 7%;
+}
+
+/*sections*/
+
+.colored-section{
+  background-color: #ef8172;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+  color: black;
+}
+
+.btn{
+  size:20px;
+}
+img{
+  size: 1px;
+}
+
+.navbar{
+  padding:0 0 4.5;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+
+.nav-item{
+  padding:0 18px;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+.btn{
+  margin: 5% 3% 5% 0% ;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute ;
+  right: 30%;
+ }
+
+ #features{
+  position: relative;
+ 
+ }
+
+ .ft{
+  padding: 4.5%;
+ }
+ .fa-4x{
+  margin-bottom: 1.5rem;
+  color:#ff4c68;
+
+ }
+ .fa-4x:hover{
+  color:black;
+ }
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+#press{
+  padding:3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.card-body,.dog{
+  line-height: 1.5rem;
+}
+
+.price{
+  font-family:roboto ;
+  font-size:50px;
+}
+.card-deck{
+  margin-left: 200px;
+}
+
+.dog{
+font-size: 4.5rem;
+line-height: 5rem;
+}
+
+.bt{
+  font-size: 15px;
+  align-content: center;
+}
+.sc{
+  font-size: 100px;
+}
+.sc:hover{
+  color: #ef8172;
+}
+@media (max-width:1020px){
+  #title{
+    text-align: center;
+  }
+.title-image{
+  position:static;
+  transform: rotate(0);
+}
+}
+
